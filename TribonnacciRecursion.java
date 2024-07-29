@@ -21,6 +21,7 @@ public class TribonnacciRecursion {
         }
 
         int result = trib(n-1, memo) + trib(n-2, memo) + trib(n-3, memo);
+        memo.put(n, result);
         return result;
     }
 }

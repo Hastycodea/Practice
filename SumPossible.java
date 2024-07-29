@@ -4,9 +4,14 @@ import java.util.List;
 public class SumPossible {
     public static void main(String[] args) {
         List<Integer> numbers = List.of(6, 3, 9);
+		List<Integer> numbers2 = List.of(7, 13, 0, 9, 4, 14);
+
         int amount = 12;
         boolean result = sumPossible(amount, numbers);
+		boolean result2 = sumPossible(amount, numbers2);
+
         System.out.println(result);
+		System.out.println(result2);
         
     }
 

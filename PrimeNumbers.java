@@ -5,16 +5,15 @@ public class PrimeNumbers{
 	int number = 100;
 
 	for(int i = 1; i <= number; i++){
-		if(!isPrime(i)){
-			continue;	
-		
-		} else {
-		System.out.println(i);	
+
+		if(isPrime(i)){
+		if(i > 2) {
+			System.out.print(", ");
 		}
-	
+		System.out.print(i);	
+		}
 	}
-
-
+	System.out.println();
 	}
 	public static boolean isPrime(int number) {
 		if (number == 0 || number == 1) return false;

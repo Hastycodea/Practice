@@ -24,7 +24,6 @@ public class Sorting {
         // sorting strings in an ArrayList
         ArrayList<String> namesList = new ArrayList<>();
         Collections.addAll(namesList, "Kimberly", "Tony", "Stack", "Barbra", "Paul", "Zendaya");
-        // System.out.println(namesList.toString());
         Collections.sort(namesList);
         System.out.println(namesList.toString());
     }

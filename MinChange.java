@@ -3,10 +3,9 @@ import java.util.HashMap;
 
 public class MinChange{
 	public static void main(String[] args) {
-//		List<Integer> coins = List.of(1, 2, 3);
-		List<Integer> coins = List.of(3,5,6,1,10);
-		int amount = 12;
-		int result = minChange(amount, coins);
+			List<Integer> coins = List.of(1, 2, 3, 4);
+			int amount = 5;
+			int result = minChange(amount, coins);
 			System.out.println(result);
 		}
 	

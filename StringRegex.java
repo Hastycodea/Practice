@@ -12,7 +12,12 @@ public class StringRegex {
             sb.append(s);
         }
 
-        System.out.println(sb.toString());
+        // System.out.println(sb.toString());
+
+        String phoneName = "       Sam  sung    n";
+        String result = phoneName.replaceAll("\\s+", "").trim();
+        System.out.println(phoneName.trim());
+        System.out.println(result);
 
     }
 }

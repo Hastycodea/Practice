@@ -2,12 +2,12 @@ import java.sql.*;
 
 public class Main {
     public static void main(String[] args) throws SQLException {
+        String sql = "select *from students";
         String url = "jdbc:mysql://127.0.0.1:3306/myDB";
         String user = "root";
         String password = "sir2kalFOUR!";
         Connection connection = DriverManager.getConnection(url, user, password);
 
-        String sql = "select *from students";
         Statement statement = connection.createStatement();
         ResultSet rs = statement.executeQuery(sql);
 

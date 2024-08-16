@@ -1,18 +1,19 @@
 package com.hastycode.SpringSecExample.model;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+@Entity
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Student {
+public class Users {
 
+    @Id
     private int id;
-    private String name;
-    private int marks;
-
-
+    private String username;
+    private String password;
 }

@@ -25,10 +25,7 @@ public class MemberController {
     @PostMapping("/submit_form")
     public String addMember(Member member) {
         service.addMember(member);
-
-
         String message = member.getName() + " welcome to the team";
-
 
         return "welcome-view";
     }

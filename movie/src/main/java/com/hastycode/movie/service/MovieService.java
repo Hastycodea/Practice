@@ -31,8 +31,6 @@ public class MovieService {
         String url = apiUrl + "?s=" + name + "&r=json&page=1";
         var headers = new HttpHeaders();
 
-
-
         headers.set("x-rapidapi-key", apiKey);
         headers.set("x-rapidapi-host", apiHost);
         HttpEntity<String> requestEntity = new HttpEntity<>(headers);

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    /* Primary Color */
+    --primary-color: #048E7B;
+  
+    --background-color : #023931 ;
+  
+    /* Background */
+    --white-color: #ffffff; 
+  
+    /* Accent Gray */
+    --heading-text: #000;
+  
+    /* Text and Secondary Elements */
+    --text-color: #333;
+  
+    /* Divider Lines */
+  }
+
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  html{
+    font-size: 62.5%;
+  }
+
+  body {
+    font-family: "Lato", sans-serif;
+    color: #333;
+    font-size: 1.8rem;
+    line-height: 1.6;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .bg-header {
+    background-color: var(--background-color);
+  }
+
+  nav {
+    height: 9rem;
+  }
+
+  .navbar-brand {
+    font-size: 2.4rem;
+  }
+
+  .nav-link:link, .nav:visited {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 500;
+    display: inline-block;
+  }
+
+  .nav-link:hover, .nav-link:active {
+    color: var(--primary-color);
+  }
+
+  .nav-link.cta {
+    background-color: #048E7B;
+    border-radius: 4px;
+  }
+
+  .nav-link.cta:hover {
+    background-color: #29a895;
+    color: white;
+
+  }
+
+  h1 {
+    font-size: 5.2rem;
+    letter-spacing: -0.4px;
+    line-height: 1.3;
+  }
+
+  .hero-section p {
+    font-size: 1.8rem;
+    line-height: 1.7;
+    letter-spacing: 0.3px;
+  }
+
+  .btn {
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1.8rem;
+    padding: 8px 24px;
+    border-radius: 4px;
+  }
+

@@ -127,3 +127,34 @@
     color: #777;
   }
 
+  .how-it-works-title{
+    font-size: 2.4rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .how-it-works-text {
+    font-size: 1.8rem;
+    color: #333;
+    line-height: 1.7;
+
+  }
+
+  .icon {
+    width: 1.8rem;
+    height: 1.8rem;
+    padding: 1.2rem;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    color: white;
+    margin-bottom: 1.6rem;
+  }
+
+  .how-it-works{
+    padding: 2.4rem 0;
+  }
+
+  .testimonials {
+    padding: 5rem 0;
+    background-color: var(--background-color);
+  }
+

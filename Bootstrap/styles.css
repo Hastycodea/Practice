@@ -26,6 +26,7 @@
 
   html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
   }
 
   body {
@@ -157,4 +158,29 @@
     padding: 5rem 0;
     background-color: var(--background-color);
   }
+
+  .testimonial-text {
+    color: var(--primary-color);
+  }
+
+  .testimonial-name {
+    color: rgb(235, 232, 206);
+  }
+
+  .testimonial-card {
+    width: 60%;
+  }
+
+  .testimonials img {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+  }
+
+  h3 {
+    font-size: 2.4rem;
+  }
+
+ 
 

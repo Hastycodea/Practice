@@ -34,7 +34,7 @@ public class ListEx {
         result.forEach(System.out::println);
 
 
-        int sum = result.stream().mapToInt(Integer::intValue).sum();
+        int sum = result.stream().mapToInt(Integer::intValue).sum();  // summing values in a list usng stream => .reduce(0, Integer::sum)
         System.out.println("Sum : " + sum);
 
 

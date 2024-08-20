@@ -14,5 +14,10 @@ public class Euler {
 
         return sum;
     }
+
+    public static int evenFibNumbers() {
+        
+        return 0;
+    }
     
 }

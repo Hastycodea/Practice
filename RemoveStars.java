@@ -8,8 +8,6 @@ public class RemoveStars {
 
         System.out.println(removeStars(name));
 
-        
-        
     }
 
     public static String removeStars(String word) {
@@ -25,10 +23,6 @@ public class RemoveStars {
         }
 
         StringBuilder sb = new StringBuilder();
-
-        // for(int i = wordCharacters.size() - 1; i >= 0; i--) {
-        //     sb.append(wordCharacters.get(i));
-        // }
 
         for(char c : wordCharacters) {
             sb.append(c);

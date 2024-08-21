@@ -11,9 +11,7 @@ public class IteratorWork {
         Iterator<Integer> printAll = numbers.iterator();
 
         while (printAll.hasNext()) {
-            if (printAll.next() > 8) {
-                System.out.println(printAll.next());
-            }
+            System.out.println(printAll.next());
         }
     }
 }

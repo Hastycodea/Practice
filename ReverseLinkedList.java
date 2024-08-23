@@ -9,7 +9,6 @@ public class ReverseLinkedList {
 
         ListNode result = reverseList(one);
         printList(result);
-
         
     }
 

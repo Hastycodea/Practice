@@ -115,13 +115,15 @@
   }
 
   .hero-img{
-    width: 80%;
+    width: 1500px;
+    height: auto;
   }
 
   .card-title {
     font-weight: bold;
     font-size: 1.8rem;
   }
+
 
   .card-text {
     font-size: 1.6rem;

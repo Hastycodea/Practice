@@ -9,29 +9,24 @@ public class MaxConsecutiveOnes {
 
     public static int maxConsecutiveOnes(int[] numbers, int k) {
         
-        int maxCount = 0;
-        int count = 0;
-        int zeroCount = 0;
+        int i = 0;
+        int j = 0;
 
-        for (int i = 0; i < numbers.length; i++) {
-            if(numbers[i] == 1 || (numbers[i] == 0 && zeroCount < k)) {
-                count++;
+        while (i < numbers.length) {
+
+            if (numbers[i] == 0) k--;
+
+            if (k < 0) {
+                if (numbers[j] == 0) {
+                    k++;
+                }
+
+                j++;
             }
 
-            maxCount = count;
+            i++;            
+        }        
 
-            if (numbers[i] == 0) {
-                zeroCount++;
-            }
-
-            if (zeroCount == k) {
-                count = 0;
-                zeroCount = 0;                
-            }
-
-            maxCount = Math.max(count, maxCount);
-        }
-
-        return maxCount;
+        return i - j;
     }
 }

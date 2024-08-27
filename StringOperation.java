@@ -5,6 +5,7 @@ public class StringOperation {
             System.out.println("Yes it contains");
         } else {
             System.out.println("Noma");
+            System.out.println("It contains");
         }
     }
 }

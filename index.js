@@ -4,3 +4,5 @@
  })
 
  console.log(numbers);
+
+ console.log(5 / 0);

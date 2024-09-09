@@ -14,7 +14,6 @@ public class DiffArray {
 
         List<List<Integer>> result = diffArray(list1, list2);
         System.out.println(result.toString());
-
         
     }
 

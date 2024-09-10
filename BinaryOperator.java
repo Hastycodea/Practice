@@ -11,7 +11,7 @@ public class BinaryOperator {
         System.out.println(result);
         
         double value = 0.9393939393;
-        System.out.println(String.format("%.2f", value));
+        System.out.println(String.format("%.2f", value)); //2dp
 
     }
 }

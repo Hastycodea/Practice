@@ -11,6 +11,18 @@ public class Palindrome{
 		} else {
 			System.out.println(name + " and " + reverse + " are not same");	
 		}
+
+		System.out.println(palindrome(name));
 		
+	}
+
+	public static boolean palindrome(String word) {
+		String cleanWord = word.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
+		StringBuilder sb = new StringBuilder(cleanWord);
+		String reverseWord = sb.reverse().toString();
+		if (cleanWord.equals(reverseWord)) {
+			return true;
+		}
+		return false;
 	}
 }

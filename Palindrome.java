@@ -17,6 +17,7 @@ public class Palindrome{
 	}
 
 	public static boolean palindrome(String word) {
+		//match everything except 
 		String cleanWord = word.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
 		StringBuilder sb = new StringBuilder(cleanWord);
 		String reverseWord = sb.reverse().toString();

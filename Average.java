@@ -16,7 +16,7 @@ public class Average {
         return numbers.stream()
                         .filter(n -> n > 0)
                         .distinct()
-                        .mapToDouble(Integer::intValue)
+                        .mapToDouble(Integer::doubleValue)
                         .average()
                         .getAsDouble();
     }

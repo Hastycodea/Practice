@@ -8,8 +8,9 @@ public class HashReview {
         ids.put(3, "three");
         ids.put(4, "four");
 
-        
-
+        if (ids.containsValue("two")) {
+            System.out.println(ids.);
+        }
 
         ids.keySet().stream().forEach(System.out::println);
         ids.values().stream().forEach(System.out::println);

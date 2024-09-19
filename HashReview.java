@@ -9,7 +9,7 @@ public class HashReview {
         ids.put(4, "four");
 
         if (ids.containsValue("two")) {
-            System.out.println(ids.);
+            // System.out.println(ids.);
         }
 
         ids.keySet().stream().forEach(System.out::println);

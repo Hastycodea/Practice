@@ -2,8 +2,8 @@ public class MaxConsecutiveOnes {
     public static void main(String[] args) {
 
         int[] numbers = {1,1,1,0,0,0,1,1,1,1,0};
-        int[] numbers2 = {0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1};
-        System.out.println(maxConsecutiveOnes(numbers2, 3));
+        // int[] numbers2 = {0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1};
+        System.out.println(maxConsecutiveOnes(numbers, 2));
         
     }
 

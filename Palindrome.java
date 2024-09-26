@@ -12,7 +12,9 @@ public class Palindrome{
 			System.out.println(name + " and " + reverse + " are not same");	
 		}
 
-		System.out.println(palindrome(name));
+		boolean result2 = palindrome(name);
+
+		System.out.println(result2);
 		
 	}
 
@@ -23,7 +25,7 @@ public class Palindrome{
 		String reverseWord = sb.reverse().toString();
 		if (cleanWord.equals(reverseWord)) {
 			return true;
-		}
+	}
 		return false;
 	}
 }

@@ -5,6 +5,9 @@ public class Palindrome{
 		String nameRefined = name.replaceAll("[,\\s!]", "").toLowerCase();
 		StringBuilder sb = new StringBuilder(nameRefined);
 		String reverse = sb.reverse().toString();
+    
+    String company = "Google Chrome";
+    System.out.println(palindrome(company)); 
 
 		if(nameRefined.equals(reverse)) {
 			System.out.println("The "+name+" is a palindrome");

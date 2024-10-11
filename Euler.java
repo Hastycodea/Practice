@@ -1,6 +1,7 @@
 public class Euler {
     public static void main(String[] args) {
         System.out.println(sumOfMultiplesThreeFive(1000));        
+        System.out.println(sumOfMultiplesThreeFive(1000)); 
     }
 
     public static int sumOfMultiplesThreeFive(int number) {

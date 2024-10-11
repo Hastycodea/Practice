@@ -4,7 +4,6 @@ public class Add {
         System.out.println(add(5, 7));
         System.out.println(add(5, 7));
 
-
     }
 
     public static int add(int a, int b) {

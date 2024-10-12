@@ -8,7 +8,15 @@ public class Baseball {
         List<String> ops = Arrays.asList("5", "2", "C", "D", "+");
         int result = baseBall(ops);
 
+        List<String> ops1 = Arrays.asList("8", "3", "C", "D", "+");
+        int result1 = baseBall(ops1);
+
+
+
+
+
         System.out.println(result);
+        System.out.println(result1);
         
     }
 

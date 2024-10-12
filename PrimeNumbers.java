@@ -2,10 +2,12 @@
 public class PrimeNumbers{
 	public static void main(String[] args){
 	
+
+	System.out.println();
+	System.out.println();
 	int number = 100;
 
 	for(int i = 1; i <= number; i++){
-
 		if(isPrime(i)){
 		if(i > 2) {
 			System.out.print(", ");
@@ -13,6 +15,8 @@ public class PrimeNumbers{
 		System.out.print(i);	
 		}
 	}
+	System.out.println();
+	System.out.println();
 	System.out.println();
 	}
 	public static boolean isPrime(int number) {

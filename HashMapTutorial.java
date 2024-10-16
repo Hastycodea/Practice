@@ -13,13 +13,16 @@ public class HashMapTutorial {
         map.put(7, "seven");
 
         HashMap<Integer, String> numbersMap = new HashMap<>();
-        map.put(1, "one");
-        map.put(2, "two");
-        map.put(3, "three");
-        map.put(4, "four");
-        map.put(5, "five");
-        map.put(6, "six");
-        map.put(7, "seven");
+        numbersMap.put(1, "one");
+        numbersMap.put(2, "two");
+        numbersMap.put(3, "three");
+        numbersMap.put(4, "four");
+        numbersMap.put(5, "five");
+        numbersMap.put(6, "six");
+        numbersMap.put(7, "seven");
+
+        System.out.println("To String() print of HashMap");
+        System.out.println(numbersMap.toString());
 
         System.out.println("Printing all the keys");
 

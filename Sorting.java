@@ -11,7 +11,8 @@ public class Sorting {
         System.out.println(Arrays.toString(numbers));
 
         // sorting string array
-        String[] names = {"Kim", "Zadock", "Paul", "Austine", "Maria"};
+        string[] names = {"KIM", "ZADOCK", "PAUL", "AUSTINE", "MARIA"};
+        String[] names = {"KIM", "Zadock", "Paul", "Austine", "Maria"};
         Arrays.sort(names);
         System.out.println(Arrays.toString(names));
 

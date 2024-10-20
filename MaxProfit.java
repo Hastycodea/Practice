@@ -7,9 +7,6 @@ public class MaxProfit {
     }
 
     public static int maxProfit(int[] prices) {
-        if (prices.length == 0)
-            return 0;
-
         int profit = 0;
 
         int price = prices[0];

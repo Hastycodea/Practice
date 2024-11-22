@@ -27,7 +27,9 @@ public class MapFunctions {
         // iterating using keys
         for(String key : students.keySet()) {
             System.out.println(students.get(key));
+
         }
+
         
 
         // iterating using values

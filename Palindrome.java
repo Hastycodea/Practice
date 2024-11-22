@@ -1,7 +1,7 @@
 
 public class Palindrome {
 	public static void main(String[] args) {
-		String name = "A man, a plan, a canal, Panama!";
+		String name = "a man, a plan, a canal, panama!";
 		String nameRefined = name.replaceAll("[,\\s!]", "").toLowerCase();
 		StringBuilder sb = new StringBuilder(nameRefined);
 		String reverse = sb.reverse().toString();
@@ -32,3 +32,4 @@ public class Palindrome {
 		return false;
 	}
 }
+

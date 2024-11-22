@@ -11,7 +11,7 @@ public class RandomNumber {
         // How many random numbers should be printed?
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("How many numbers random numbers should be printed? ");
+        System.out.print("How many digits random digits should be printed? ");
         int input = Integer.valueOf(scanner.nextLine());
 
         for (int i = 0; i < input; i++) {

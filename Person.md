@@ -1,7 +1,5 @@
+DIGRAPHS
 
-
-    "Person 102; Name:Kim;Money:0;"
-    "Person 105; Name:Yank;Money:0;"
     "Person 105; Name:Paul;Money:0;"
     "Person 104; Name:Tell;Money:0;"
 

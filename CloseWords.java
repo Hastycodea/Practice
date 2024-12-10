@@ -8,6 +8,9 @@ public class CloseWords {
         String word1 = "abc";
         String word2 = "cba";
 
+        String word3 = "abc";
+        String word4 = "cba";
+
         System.out.println(closeWords(word1, word2));
 
     }

@@ -20,6 +20,7 @@ public class WordPattern {
 
         Map<Character, String> charToWord = new HashMap<>();
         HashSet<String> repeatedWords = new HashSet<>();
+        
 
         for(int i = 0; i<pattern.length(); i++) {
             char c = pattern.charAt(i);

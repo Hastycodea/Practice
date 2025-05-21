@@ -13,6 +13,7 @@ public class PrimeNumbers{
 			System.out.print(", ");
 		}
 		System.out.print(i);	
+		
 		}
 	}
 	System.out.println();
@@ -25,7 +26,6 @@ public class PrimeNumbers{
 			if(number%i == 0) return false;
 		}	
 		return true;
-	
 	}
 
 }

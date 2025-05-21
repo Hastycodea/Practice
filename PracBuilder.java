@@ -5,6 +5,7 @@ public class PracBuilder {
         String animal = "Antelope";
         System.out.println(animal.toLowerCase());
 
+
         StringBuilder sb = new StringBuilder(animal);
         sb.reverse();
         System.out.println(sb.toString().toLowerCase());
